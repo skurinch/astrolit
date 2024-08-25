@@ -6,6 +6,7 @@
 @import 'libs/html-grid';
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 /*
 	Strongly Typed by HTML5 UP
@@ -119,7 +120,7 @@
 	}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro';
+		font-family: 'Dancing Script';
 		font-weight: 300;
 		color: #777;
 		line-height: 1.65em;
@@ -680,7 +681,7 @@
 		}
 
 		h1 {
-			font-family: 'Arvo';
+			font-family: 'Dancing Script';
 			font-weight: 700;
 			color: #ed786a;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
