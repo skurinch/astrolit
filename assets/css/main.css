@@ -1,6 +1,8 @@
 @import url("fontawesome-all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*
 	Strongly Typed by HTML5 UP
@@ -57,7 +59,7 @@ body {
 }
 
 mark {
-	background-color: transparent;
+	background-color: rgba(255, 255, 0, 0.486);
 	color: inherit;
 }
 
@@ -99,9 +101,9 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Noto Sans';
-		font-weight: 300;
-		color: #777;
+		font-family: 'Bitter';
+		font-weight: 400;
+		color: #000000;
 		line-height: 1.65em;
 		font-size: 15pt;
 	}
@@ -109,7 +111,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 600;
 		text-transform: uppercase;
-		color: #888;
+		color: #000000;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -119,14 +121,14 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-family: 'Noto Sans';
+		font-family: 'Bitter';
 		text-transform: none;
-		font-size: 1.65em;
+		font-size: 1em;
 		font-weight: 400;
-		letter-spacing: 4px;
-		margin: 0 0 1.5em 0;
+		letter-spacing: 1.2px;
+		margin: -3em 0 1.5em 0;
 		line-height: 1.75em;
-		text-align: center;
+		text-align: justify;
 	}
 
 	h3 {
@@ -140,7 +142,7 @@ input, select, textarea {
 		-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-		color: #666;
+		color: #000000;
 		text-decoration: none;
 		border-bottom: solid 1px #ffffff;
 	}
@@ -163,7 +165,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 600;
-		color: #666;
+		color: #000000;
 	}
 
 	em, i {
@@ -184,7 +186,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-top: solid 1px #ffffff;
+		border-top: solid 1px #ed2626;
 	}
 
 	blockquote {
@@ -1517,7 +1519,7 @@ input, select, textarea {
 		.image.header {
 			display: block;
 			width: 100%;
-			margin: -4em -2em 2em 0;
+			margin: 0em 0em 3em 0;
 		}
 
 		.image.left {
@@ -1636,7 +1638,8 @@ input, select, textarea {
 		ul.icons > li {
 			position: relative;
 			padding: 2em 0 0 3em;
-			margin: 0;
+			margin: 0 0 0 0;
+			left: 38%;
 		}
 
 			ul.icons > li:before {
@@ -1645,7 +1648,7 @@ input, select, textarea {
 				top: 2.6em;
 				display: block;
 				font-size: 0.8em;
-				background: #878787;
+				background: #000000;
 				color: #e4e4e4;
 				width: 2em;
 				height: 2em;
@@ -1733,7 +1736,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border-top: solid 1px #E5E5E5;
+			border-top: solid 1px #ffffff;
 		}
 
 			table tbody tr:first-child {
@@ -1763,7 +1766,7 @@ input, select, textarea {
 
 		table tfoot {
 			background: #F0F0F0;
-			border-top: solid 2px #E5E5E5;
+			border-top: solid 2px #ffffff;
 		}
 
 /* Button */
@@ -1919,6 +1922,7 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: cover;
 		text-align: center;
+		height: 46vh;
 	}
 
 		#header > .container {
@@ -1943,7 +1947,7 @@ input, select, textarea {
 			}
 
 		#header p {
-			font-family: 'Noto Sans';
+			font-family: 'Bitter';
 			text-transform: none;
 			font-weight: 400;
 			color: #000000;
@@ -2126,7 +2130,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		background: url("../../images/palm_trees_night.jpg");
 		background-size: cover;
-		padding: 10em 0;
+		height: 10vh;
 	}
 
 		#banner p {
@@ -2137,7 +2141,7 @@ input, select, textarea {
 			line-height: 1.5em;
 			letter-spacing: 4px;
 			text-align: center;
-			margin: 0;
+			margin: -2em;
 		}
 
 		#banner strong {
@@ -2152,10 +2156,10 @@ input, select, textarea {
 				content: '';
 				display: block;
 				position: absolute;
-				top: 50%;
+				top: 2.5em;
 				width: 35px;
 				height: 141px;
-				margin-top: -70px;
+				margin-top: -60px;
 				background: url("images/bracket.svg");
 				opacity: 0.15;
 			}
@@ -2185,7 +2189,7 @@ input, select, textarea {
 
 	#content > section,
 	#content > article {
-		border-top: solid 2px #e5e5e5;
+		border-top: solid 2px #ffffff;
 		box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
 		margin: 5em 0 0 0;
 		padding: 5em 0 0 0;
@@ -2195,7 +2199,7 @@ input, select, textarea {
 		#content > article:first-child {
 			border-top: 0;
 			box-shadow: none;
-			margin: 0;
+			margin: 1em;
 			padding: 0;
 		}
 
@@ -2224,7 +2228,8 @@ input, select, textarea {
 		overflow: hidden;
 		border-top: solid 2px #e5e5e5;
 		background: #f0f0f0;
-		padding: 6em 0 8em 0;
+		padding: 0em 0 8em 0;
+		height: 24vh;
 	}
 
 		#footer form input[type="text"],
@@ -2244,7 +2249,16 @@ input, select, textarea {
 			}
 
 		#footer h2 {
+			font-family: 'Dancing Script';
 			text-align: center;
+			color: #000000;
+		}
+
+		#footer ul {
+			margin-top: -3em;
+			color: #000000;
+			font-size: 15px;
+			line-height: 1.5em;
 		}
 
 /* Copyright */
@@ -2252,8 +2266,8 @@ input, select, textarea {
 	#copyright {
 		border-top: solid 2px #e5e5e5;
 		text-align: center;
-		margin-top: 6em;
-		padding-top: 4em;
+		margin-top: -5em;
+		padding-top: 2em;
 	}
 
 /* XLarge */
