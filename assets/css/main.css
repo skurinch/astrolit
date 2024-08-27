@@ -1925,11 +1925,11 @@ input, select, textarea {
 		height: 46vh;
 	}
 
-		#header > .container {
+		/* #header > .container {
 			padding: 14em 0 4em 0;
 			border-bottom: solid 2px #ffffff;
 			box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
-		}
+		} */
 
 		#header h1 {
 			font-family: 'Dancing Script';
@@ -2182,17 +2182,17 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		background: #fff;
-		padding: 6em 0;
+		/* padding: 6em 0; */
 	}
 
 /* Content */
 
 	#content > section,
 	#content > article {
-		border-top: solid 2px #ffffff;
-		box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
+		/* border-top: solid 2px #ffffff; */
+		/* box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5; */
 		margin: 5em 0 0 0;
-		padding: 5em 0 0 0;
+		/* padding: 5em 0 0 0; */
 	}
 
 		#content > section:first-child,
@@ -2200,7 +2200,7 @@ input, select, textarea {
 			border-top: 0;
 			box-shadow: none;
 			margin: 1em;
-			padding: 0;
+			/* padding: 0; */
 		}
 
 /* Sidebar */
