@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /*
 	Strongly Typed by HTML5 UP
@@ -111,8 +111,8 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 600;
-		text-transform: uppercase;
+		font-weight: 400;
+		text-transform: none;
 		color: #000000;
 	}
 
@@ -123,6 +123,17 @@ input, select, textarea {
 	}
 
 	h2 {
+		font-family: 'Lato';
+		text-transform: uppercase;
+		font-size: 30px;
+		font-weight: 300;
+		letter-spacing: 1.2px;
+		margin: 0em 0 1em 0;
+		line-height: 1.75em;
+		text-align: center;
+	}
+
+	h3 {
 		font-family: 'Lora';
 		text-transform: none;
 		font-size: 1em;
@@ -133,11 +144,14 @@ input, select, textarea {
 		text-align: justify;
 	}
 
-	h3 {
-		font-size: 1em;
-		letter-spacing: 2px;
-		margin: 0 0 1.25em 0;
+	h4 {
+		font-family: 'Lato';
+		text-align: center;
+		font-weight: 400;
+		padding-top: 1em;
+		padding-bottom: 0.5em;
 	}
+
 
 	a {
 		-moz-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
@@ -187,8 +201,15 @@ input, select, textarea {
 	}
 
 	hr {
-		border: 0;
-		border-top: solid 1px #ed2626;
+		/* border: 0; */
+		/* border-top: solid 75px #ed2626; */
+		background-image: url(../../images/stephans_quintet.png);
+		display: block;
+		border: 0px;
+    	height: 75px;
+		border-top: solid 2px #e5e5e5;
+		border-bottom: solid 2px #e5e5e5;
+		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px 8px 0px 0px #fff;
 	}
 
 	blockquote {
@@ -1514,11 +1535,13 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
+			/* border: solid 4px #e5e5e5; */
+			clip-path: circle(40%);
 		}
 
 		.image.header {
 			display: block;
-			width: 90%;
+			width: 85%;
 			display: block;
   			margin-left: auto;
   			margin-right: auto;
@@ -1920,7 +1943,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		position: relative;
+		/* display: flex; */
 		position: relative;
 		background: url('../../images/stephans_quintet.png');
 		background-repeat: no-repeat;
@@ -1931,9 +1954,6 @@ input, select, textarea {
 
 		#header > .container {
 			padding: 14em 0 4em 0;
-			/* margin-top: -2em */
-			/* border-bottom: solid 2px #ffffff;
-			box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5; */
 		}
 
 		#header h1 {
@@ -1956,7 +1976,6 @@ input, select, textarea {
 			font-weight: 400;
 			color: #000000;
 			margin: 2.5em 0 0 0;
-			/* padding-top: 0.5em; */
 			font-size: 0.8em;
 			letter-spacing: 1px;
 			text-align: center;
@@ -1985,6 +2004,7 @@ input, select, textarea {
 				border: 0;
 				text-decoration: none;
 				text-transform: uppercase;
+				font-family: 'Lato';
 				font-weight: 400;
 				color: #000000;
 				outline: 0;
@@ -2113,7 +2133,7 @@ input, select, textarea {
 	}
 
 		#features p {
-			text-align: center;
+			text-align: justify;
 		}
 
 		#features ul.actions {
@@ -2198,8 +2218,6 @@ input, select, textarea {
 
 	#content > section,
 	#content > article {
-		/* border-top: solid 2px #ffffff; */
-		/* box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5; */
 		margin: 5em 0 0 0;
 		padding: 5em 0 0 0;
 	}
@@ -2659,7 +2677,7 @@ input, select, textarea {
 			}
 
 			#header h1 {
-				font-size: 6em;
+				font-size: 3em;
 				letter-spacing: 8px;
 				line-height: 1.325em;
 			}
