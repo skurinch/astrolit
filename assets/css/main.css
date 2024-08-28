@@ -2137,7 +2137,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		background: url("../../images/palm_trees_night.jpg");
 		background-size: cover;
-		height: 10vh;
+		/* height: 10vh; */
 		margin-bottom: 0em;
 		margin-top: 0em;
 		padding-top: 1em;
