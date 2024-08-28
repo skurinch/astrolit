@@ -128,7 +128,7 @@ input, select, textarea {
 		font-size: 1em;
 		font-weight: 400;
 		letter-spacing: 1.2px;
-		margin: -3em 0 1.5em 0;
+		margin: 0em 0 1.5em 0;
 		line-height: 1.75em;
 		text-align: justify;
 	}
@@ -1504,7 +1504,6 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
-			margin: 0 0 0 0;
 		}
 
 		.image.fit {
@@ -1515,13 +1514,11 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 2em 0;
 		}
 
 		.image.header {
 			display: block;
 			width: 90%;
-			/* margin: 0em 0em 3em 0; */
 			display: block;
   			margin-left: auto;
   			margin-right: auto;
@@ -1645,7 +1642,7 @@ input, select, textarea {
 		ul.icons > li {
 			position: relative;
 			padding: 2em 0 0 3em;
-			margin: 0 0 0 0;
+			margin: 0;
 			left: 38%;
 		}
 
@@ -1929,11 +1926,12 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: cover;
 		text-align: center;
-		/* height: 100vh; */
+		/* max-height: 50vh; */
 	}
 
 		#header > .container {
 			padding: 14em 0 4em 0;
+			/* margin-top: -2em */
 			/* border-bottom: solid 2px #ffffff;
 			box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5; */
 		}
@@ -1946,7 +1944,6 @@ input, select, textarea {
 			font-size: 6em;
 			letter-spacing: 0px;
 			text-transform: capitalize;
-			margin: -1em 0 0 0;
 		}
 
 			#header h1 a {
@@ -1958,9 +1955,10 @@ input, select, textarea {
 			text-transform: none;
 			font-weight: 400;
 			color: #000000;
-			margin: 1.5em 0 0 0;
+			margin: 2.5em 0 0 0;
+			/* padding-top: 0.5em; */
 			font-size: 0.8em;
-			letter-spacing: 0px;
+			letter-spacing: 1px;
 			text-align: center;
 		}
 
@@ -2137,11 +2135,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		background: url("../../images/palm_trees_night.jpg");
 		background-size: cover;
-		/* height: 10vh; */
-		margin-bottom: 0em;
-		margin-top: 0em;
-		padding-top: 1em;
-		padding-bottom: 1em;
+		padding: 10em 0;
 	}
 
 		#banner p {
@@ -2152,10 +2146,11 @@ input, select, textarea {
 			line-height: 1.5em;
 			letter-spacing: 4px;
 			text-align: center;
-			position: absolute;
+			margin: 0;
+			/* position: absolute;
    			top: 50%;
    			left: 5%;
-   			transform: translate(-2%, -50%);
+   			transform: translate(-2%, -50%); */
 		}
 
 		#banner strong {
@@ -2170,13 +2165,12 @@ input, select, textarea {
 				content: '';
 				display: block;
 				position: absolute;
-				top: 2.5em;
+				top: 50%;
 				width: 35px;
 				height: 141px;
-				margin-top: -60px;
+				margin-top: -70px;
 				background: url("images/bracket.svg");
 				opacity: 0.15;
-  				top: 50%;
 			}
 
 			#banner > .container:before {
@@ -2207,15 +2201,15 @@ input, select, textarea {
 		/* border-top: solid 2px #ffffff; */
 		/* box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5; */
 		margin: 5em 0 0 0;
-		/* padding: 5em 0 0 0; */
+		padding: 5em 0 0 0;
 	}
 
 		#content > section:first-child,
 		#content > article:first-child {
 			border-top: 0;
 			box-shadow: none;
-			margin: 1em;
-			/* padding: 0; */
+			margin: 0;
+			padding: 0;
 		}
 
 /* Sidebar */
@@ -2243,8 +2237,7 @@ input, select, textarea {
 		overflow: hidden;
 		border-top: solid 2px #e5e5e5;
 		background: #f0f0f0;
-		padding: 4em 0 8em 0;
-		height: 24vh;
+		padding: 6em 0 8em 0;
 	}
 
 		#footer form input[type="text"],
@@ -2270,7 +2263,7 @@ input, select, textarea {
 		}
 
 		#footer ul {
-			margin-top: -3em;
+			/* margin-top: -3em; */
 			color: #000000;
 			font-size: 15px;
 			line-height: 1.5em;
@@ -2281,8 +2274,8 @@ input, select, textarea {
 	#copyright {
 		border-top: solid 2px #e5e5e5;
 		text-align: center;
-		margin-top: -5em;
-		padding-top: 2em;
+		margin-top: 6em;
+		padding-top: 4em;
 	}
 
 /* XLarge */
@@ -2328,7 +2321,7 @@ input, select, textarea {
 			}
 
 			#header h1 {
-				font-size: 3em;
+				font-size: 2.5em;
 			}
 
 			#header p {
@@ -2621,11 +2614,6 @@ input, select, textarea {
 				margin: 0 0 1.5em 0;
 			}
 
-			.image.header {
-				margin: 0 0 1.5em 0;
-				width: 100%;
-			}
-
 			.image.left {
 				max-width: 35%;
 			}
@@ -2670,11 +2658,11 @@ input, select, textarea {
 				padding: 6em 0 4em 0;
 			}
 
-			/* #header h1 {
+			#header h1 {
 				font-size: 6em;
 				letter-spacing: 8px;
 				line-height: 1.325em;
-			} */
+			}
 
 			#header p {
 				margin: 1.25em 0 0 0;
@@ -2738,7 +2726,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 4em 0;
+				padding: 2em 0;
 				/* margin-top: 2em; */
 			}
 
