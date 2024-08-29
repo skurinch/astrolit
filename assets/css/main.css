@@ -209,7 +209,7 @@ input, select, textarea {
     	height: 75px;
 		border-top: solid 2px #e5e5e5;
 		border-bottom: solid 2px #e5e5e5;
-		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px 8px 0px 0px #fff;
+		box-shadow: inset 0px -8x 0px 0px #fff, inset 0px 8px 0px 0px #fff;
 	}
 
 	blockquote {
@@ -1497,7 +1497,7 @@ input, select, textarea {
 /* Sections/Article */
 
 	section, article {
-		margin-bottom: 3em;
+		margin-bottom:3em;
 	}
 
 	section > :last-child,
@@ -1537,6 +1537,7 @@ input, select, textarea {
 			width: 100%;
 			/* border: solid 4px #e5e5e5; */
 			clip-path: circle(40%);
+			margin: 0 auto;
 		}
 
 		.image.header {
@@ -1558,12 +1559,11 @@ input, select, textarea {
 
 		.image.centered {
 			display: block;
-			margin: 0 0 2em 0;
 		}
 
 			.image.centered img {
 				margin: 0 auto;
-				width: auto;
+				width: 40%;
 			}
 
 /* List */
@@ -1974,9 +1974,10 @@ input, select, textarea {
 			font-family: 'Lora';
 			text-transform: none;
 			font-weight: 400;
+			font-size: 1em;
 			color: #000000;
-			margin: 2.5em 0 0 0;
-			font-size: 0.8em;
+			margin: 1em 0 0 0;
+			padding-top: 0.5em;
 			letter-spacing: 1px;
 			text-align: center;
 		}
@@ -2137,7 +2138,7 @@ input, select, textarea {
 		}
 
 		#features ul.actions {
-			margin-top: 1.25em;
+			margin-top: 1.0em;
 		}
 
 /* Banner */
@@ -2146,16 +2147,16 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		background: #fff;
-		color: #fff;
+		color: #000000;;
 		text-align: center;
 		border-top: solid 2px #e5e5e5;
 		border-bottom: solid 2px #e5e5e5;
 		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px 8px 0px 0px #fff;
 		position: relative;
 		text-transform: uppercase;
-		background: url("../../images/palm_trees_night.jpg");
+		background: url("../../images/stephans_quintet.png");
 		background-size: cover;
-		padding: 10em 0;
+		padding: 2.5em 0;
 	}
 
 		#banner p {
@@ -2190,7 +2191,7 @@ input, select, textarea {
 				height: 141px;
 				margin-top: -70px;
 				background: url("images/bracket.svg");
-				opacity: 0.15;
+				opacity: 1;
 			}
 
 			#banner > .container:before {
@@ -2211,7 +2212,7 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		background: #fff;
-		padding: 6em 0;
+		padding: 6em 0em;
 	}
 
 /* Content */
@@ -2255,7 +2256,7 @@ input, select, textarea {
 		overflow: hidden;
 		border-top: solid 2px #e5e5e5;
 		background: #f0f0f0;
-		padding: 6em 0 8em 0;
+		padding: 1em 0 1em 0;
 	}
 
 		#footer form input[type="text"],
@@ -2342,9 +2343,9 @@ input, select, textarea {
 				font-size: 2.5em;
 			}
 
-			#header p {
+			/* #header p {
 				font-size: 1.0em;
-			}
+			} */
 
 		/* Nav */
 
