@@ -2384,6 +2384,16 @@ input, select, textarea {
 				font-size: 13pt;
 			}
 
+		/* Image */
+
+		.image.left {
+			max-width: 50%;
+		}
+
+		.image.right {
+			max-width: 50%;
+		}
+
 	}
 
 /* Large */
